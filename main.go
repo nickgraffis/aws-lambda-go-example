@@ -3,11 +3,6 @@ package main
 import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"fmt"
-	"github.com/buckket/go-blurhash"
-	"image/png"
-	"os"
-	"net/http"
 )
 
 func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
